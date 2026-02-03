@@ -75,11 +75,11 @@ Aqui estão exemplos de requisições para testar no **Postman**:
   "gritoDeGuerra": "Com garra e força!",
   "corPadrao": "Vermelho"
 }
+```
 
-2. Cadastrar Desbravador (POST)
-URL: /membros Note o campo tipo e unidadeId.
-
-JSON
+### 2. Cadastrar Desbravador (POST)
+**URL:** `/membros Note o campo tipo e unidadeId.`
+```JSON
 
 {
     "nome": "Joãozinho Silva",
@@ -88,10 +88,11 @@ JSON
     "unidadeId": 1,
     "ativo": true
 }
-3. Cadastrar Diretoria (POST)
-URL: /membros Note o campo tipo e cargo.
+```
 
-JSON
+###3. Cadastrar Diretoria (POST)
+**URL**: `/membros Note o campo tipo e cargo.`
+```JSON
 
 {
     "nome": "Diretor Carlos",
@@ -100,17 +101,18 @@ JSON
     "cargo": "Diretor Geral",
     "ativo": true
 }
-4. Cadastrar Especialidade (POST)
-URL: /especialidades
-
-JSON
+```
+###4. Cadastrar Especialidade (POST)
+**URL:** `/especialidades`
+```JSON
 
 {
     "nome": "Nós e Amarras",
     "area": "Habilidades Manuais",
     "nivel": "Básico"
 }
-📝 Autor
+```
+###📝 Autor
 Desenvolvido por Felipe Tavares para a disciplina de Programação Orientada a Objetos.
 
 
