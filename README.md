@@ -114,18 +114,6 @@ Aqui estão exemplos de requisições para testar no **Postman**:
 ```
 ###📝 Autor
 Desenvolvido por Felipe Tavares para a disciplina de Programação Orientada a Objetos.
-
-
----
-
-### Como colocar esse arquivo no GitHub:
-
-1.  No IntelliJ, clique com o botão direito na pasta principal do projeto (`Projeto DBV - JAVA`) -> **New** -> **File**.
-2.  Nomeie como `README.md`.
-3.  Cole o código acima.
-4.  **Troque** onde diz `[Seu Nome]` e `https://github.com/SEU-USUARIO...` pelos seus dados reais.
-5.  Faça o commit e o push:
-    ```bash
     git add README.md
     git commit -m "Adicionado documentação README"
     git push
